@@ -20,6 +20,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+import rkr.simplekeyboard.inputmethod.latin.common.Constants;
+
 public class ProximityInfo {
     private static final List<Key> EMPTY_KEY_LIST = Collections.emptyList();
 
@@ -51,6 +53,11 @@ public class ProximityInfo {
             return;
         }
         computeNearestNeighbors();
+    }
+
+    static boolean needsProximityInfo(final Key key) {
+        // Don't include special keys into ProximityInfo.
+        return key.getCode() >= Constants.CODE_SPACE;
     }
 
     private void computeNearestNeighbors() {

@@ -70,7 +70,8 @@ public final class AdvancedSettingsFragment extends SubScreenFragment {
     @Override
     public void onSharedPreferenceChanged(final SharedPreferences prefs, final String key) {
         if (key.equals(Settings.PREF_HIDE_SPECIAL_CHARS) ||
-                key.equals(Settings.PREF_SHOW_NUMBER_ROW))
+                key.equals(Settings.PREF_SHOW_NUMBER_ROW) ||
+                key.equals(Settings.PREF_SHOW_ARROW_KEYS))
             KeyboardLayoutSet.onKeyboardThemeChanged();
 
         refreshEnablingsOfSettings();

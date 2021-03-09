@@ -70,4 +70,6 @@
     <string name="matching_navbar_color">ন্যাভিগেশন বারে মানানসই রং ব্যবহার করো</string>
     <string name="setup_message">সিম্পল কিবোর্ড সক্রিয় করা নেই। ভাষা সেটিংস &amp; পরিবর্তন করতে OK/আচ্ছা টিপ দাও। তোমার কীবোর্ডে সিম্পল কীবোর্ড বা Simple Keyboard টিপ দিতে হবে।</string>
 
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
+
 </resources>

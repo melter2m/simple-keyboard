@@ -69,4 +69,6 @@
     <string name="delete_swipe">Deslizar para eliminar</string>
     <string name="matching_navbar_color">Usar el color correspondiente de la barra de navegación</string>
     <string name="setup_message">Simple Keyboard no está habilitado. Haga clic en OK para abrir Idiomas &amp; Ajustes de entrada. Necesitará seleccionar Simple Keyboard en su teclado actual para usarlo.</string>
+
+    <string name="show_arrow_keys">Mostrar teclas de navegación</string>
 </resources>

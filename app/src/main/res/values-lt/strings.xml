@@ -69,4 +69,6 @@
     <string name="delete_swipe">Trynimo klavišo braukimas</string>
     <string name="matching_navbar_color">Atitinkama navigacijos juostos spalva</string>
     <string name="setup_message">Simple Keyboard yra neįgalinta. Spauskite OK kad atidaryti Kalbos ir įvestis nustatymus. Simple Keyboard galėsite pasirinkti dabartinėje klaviatūroje.</string>
+
+    <string name="show_arrow_keys">Rodyti navigacijos rodykles</string>
 </resources>

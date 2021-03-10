@@ -67,4 +67,6 @@
     <string name="show_number_row">Shfaq numrat në rresht të ndarë</string>
     <string name="space_swipe">Lëvizjet e kursorit në tabin e hapsirës</string>
     <string name="delete_swipe">Fshij rrëshqitjet</string>
+
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
 </resources>

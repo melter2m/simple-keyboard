@@ -69,4 +69,6 @@
     <string name="delete_swipe">Mazanie potiahnutím</string>
     <string name="matching_navbar_color">Použiť vhodnú farbu panela</string>
     <string name="setup_message">Simple Keyboard nie je aktivovaný. Kliknite na OK pre otvorenie nastavení Jazyka a Vstupu. Pre použitie musíte zvoliť Simple Keyboard namiesto Vašej súčasnej klávesnice.</string>
+
+    <string name="show_arrow_keys">Zobraziť navigačné šípky</string>
 </resources>

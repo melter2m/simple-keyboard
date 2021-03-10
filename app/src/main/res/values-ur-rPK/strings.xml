@@ -67,4 +67,6 @@
     <string name="show_number_row">اعداد کے لیے علاحدہ قطار دکھائیں</string>
     <string name="space_swipe">سپیس کلید پر سوائپ سے کرسر کی حرکت</string>
     <string name="delete_swipe">سوائپ حذف کریں</string>
+
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
 </resources>

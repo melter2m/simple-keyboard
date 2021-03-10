@@ -61,6 +61,8 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
     public static final String PREF_DELETE_SWIPE = "pref_delete_swipe";
     public static final String PREF_MATCHING_NAVBAR_COLOR = "pref_matching_navbar_color";
 
+    public static final String PREF_SHOW_ARROW_KEYS = "pref_show_arrow_keys";
+
     private static final float UNDEFINED_PREFERENCE_VALUE_FLOAT = -1.0f;
     private static final int UNDEFINED_PREFERENCE_VALUE_INT = -1;
 
@@ -174,6 +176,10 @@ public final class Settings implements SharedPreferences.OnSharedPreferenceChang
 
     public static boolean readDeleteSwipeEnabled(final SharedPreferences prefs) {
         return prefs.getBoolean(PREF_DELETE_SWIPE, false);
+    }
+
+    public static boolean readShowArrowKeys(final SharedPreferences prefs) {
+        return prefs.getBoolean(PREF_SHOW_ARROW_KEYS, false);
     }
 
     public static String readPrefAdditionalSubtypes(final SharedPreferences prefs,

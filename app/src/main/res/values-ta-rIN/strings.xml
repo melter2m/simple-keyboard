@@ -69,4 +69,5 @@
     <string name="delete_swipe">தேய்க்கையில் அழி</string>
     <string name="matching_navbar_color">பொருந்தும் வழிசெலுத்தல் பட்டை நிறத்தைப் பயன்படுத்து</string>
     <string name="setup_message">எளிய விசைப்பலகை இயக்கப்படவில்லை. மொழிகளைத் திறக்க சரியை தொடு &amp; உள்ளீட்டு அமைப்புகள். எளிய விசைப்பலகை பயன்படுத்த உங்கள் தற்போதைய விசைப்பலகையில் அதை தேர்ந்தெடுக்க வேண்டும்.</string>
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
 </resources>

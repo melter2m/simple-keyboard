@@ -70,4 +70,8 @@
         android:key="pref_delete_swipe"
         android:title="@string/delete_swipe"
         android:defaultValue="false" />
+    <CheckBoxPreference
+        android:key="pref_show_arrow_keys"
+        android:title="@string/show_arrow_keys"
+        android:defaultValue="false" />
 </PreferenceScreen>

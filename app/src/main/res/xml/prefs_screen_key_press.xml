@@ -49,4 +49,8 @@
         latin:minValue="@integer/config_min_longpress_timeout"
         latin:maxValue="@integer/config_max_longpress_timeout"
         latin:stepValue="@integer/config_longpress_timeout_step" />
+    <CheckBoxPreference
+        android:key="pref_show_arrow_keys"
+        android:title="@string/show_arrow_keys"
+        android:defaultValue="false" />
 </PreferenceScreen>

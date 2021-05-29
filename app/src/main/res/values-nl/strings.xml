@@ -66,4 +66,6 @@
     <string name="show_number_row">Aparte nummerrij</string>
     <string name="space_swipe">Spatie-swipe beweegt cursor</string>
     <string name="delete_swipe">Verwijder swipe</string>
+
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
 </resources>

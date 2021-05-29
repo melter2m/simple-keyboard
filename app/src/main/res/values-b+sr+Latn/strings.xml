@@ -68,4 +68,7 @@
     <string name="delete_swipe">Brisanje prevlačenjem</string>
     <string name="matching_navbar_color">Koristi boju navigacione trake</string>
     <string name="setup_message">Simple Keyboard nije omogućena. Kliknite OK da otvorite podešavanja jezika i unosa. Treba da selektujete Simple Keyboard kao vašu podrazumevanu tastaturu da biste je koristili.</string>
+
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
+
 </resources>

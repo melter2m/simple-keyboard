@@ -66,4 +66,7 @@
     <string name="show_number_row">إظهار الأرقام في صف منفصل</string>
     <string name="space_swipe">سحب مفتاح المسافة لنقل المؤشر</string>
     <string name="delete_swipe">الحذف بالسحب</string>
+
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
+
 </resources>

@@ -64,4 +64,6 @@
     <string name="hide_special_chars">විශේශ අක්ශර සඟවන්න</string>
     <string name="hide_language_switch_key">භාෂාව මාරුකරන යතුර සඟවන්න</string>
     <string name="show_number_row">වෙනමම අංක පේලියක් පෙන්වන්න</string>
+
+    <string name="show_arrow_keys">Show navigation arrow keys</string>
 </resources>

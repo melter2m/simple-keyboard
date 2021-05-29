@@ -761,6 +761,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
             if (TextUtils.getLayoutDirectionFromLocale(mSettings.getCurrent().mLocale) == View.LAYOUT_DIRECTION_RTL)
                 steps = -steps;
 
+            steps = mInputLogic.mConnection.getUnicodeSteps(steps, true);
             final int end = mInputLogic.mConnection.getExpectedSelectionEnd() + steps;
             final int start = mInputLogic.mConnection.hasSelection() ? mInputLogic.mConnection.getExpectedSelectionStart() : end;
             mInputLogic.mConnection.setSelection(start, end);
@@ -775,6 +776,7 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     @Override
     public void onMoveDeletePointer(int steps) {
         if (mInputLogic.mConnection.hasCursorPosition()) {
+            steps = mInputLogic.mConnection.getUnicodeSteps(steps, false);
             final int end = mInputLogic.mConnection.getExpectedSelectionEnd();
             final int start = mInputLogic.mConnection.getExpectedSelectionStart() + steps;
             if (start > end)
@@ -845,9 +847,6 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
     // This method is public for testability of LatinIME, but also in the future it should
     // completely replace #onCodeInput.
     public void onEvent(final Event event) {
-        if (Constants.CODE_SHORTCUT == event.mKeyCode) {
-            mRichImm.switchToShortcutIme(this);
-        }
         final InputTransaction completeInputTransaction =
                 mInputLogic.onCodeInput(mSettings.getCurrent(), event);
         updateStateAfterInputTransaction(completeInputTransaction);
@@ -1008,12 +1007,8 @@ public class LatinIME extends InputMethodService implements KeyboardActionListen
                 di.dismiss();
                 switch (position) {
                 case 0:
-                    final Intent intent = IntentUtils.getInputLanguageSelectionIntent(
-                            imeId,
-                            Intent.FLAG_ACTIVITY_NEW_TASK
-                                    | Intent.FLAG_ACTIVITY_RESET_TASK_IF_NEEDED
-                                    | Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    intent.putExtra(Intent.EXTRA_TITLE, languageSelectionTitle);
+                    final Intent intent =
+                            IntentUtils.getInputLanguageSelectionIntent(imeId, LatinIME.this);
                     startActivity(intent);
                     break;
                 case 1:

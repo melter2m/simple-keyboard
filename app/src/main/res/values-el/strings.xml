@@ -25,7 +25,6 @@
     <string name="popup_on_keypress">"Εμφάνιση με το πάτημα πλήκτρου"</string>
     <string name="settings_screen_preferences">"Προτιμήσεις"</string>
     <string name="settings_screen_appearance">"Εμφάνιση και διάταξη"</string>
-    <string name="settings_screen_advanced">"Σύνθετες"</string>
     <string name="settings_screen_theme">"Θέμα"</string>
     <string name="abbreviation_unit_milliseconds">"<xliff:g id="MILLISECONDS">%s</xliff:g>χλστ. δ."</string>
     <string name="settings_system_default">"Προεπιλογή"</string>
@@ -64,6 +63,7 @@
     <string name="keyboard_color">Ορίστε προσαρμοσμένο χρώμα πληκτρολογίου</string>
     <string name="hide_special_chars">Απόκρυψη ειδικών χαρακτήρων</string>
     <string name="hide_language_switch_key">Απόκρυψη πλήκτρου εναλλαγής γλώσσας</string>
+    <string name="pref_enable_ime_switch">Εναλλαγή πληκτρολογίου</string>
     <string name="show_number_row">Εμφάνιση ξεχωριστής σειράς αριθμών</string>
     <string name="space_swipe">Ολίσθηση στη γραμμή διαστήματος για μετακίνηση του δρομέα</string>
     <string name="delete_swipe">Αφαίρεση της ολίσθησης</string>

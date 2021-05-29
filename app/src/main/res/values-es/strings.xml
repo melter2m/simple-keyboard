@@ -25,7 +25,6 @@
     <string name="popup_on_keypress">"Ampliar al pulsar tecla"</string>
     <string name="settings_screen_preferences">"Preferencias"</string>
     <string name="settings_screen_appearance">"Aspecto y diseño"</string>
-    <string name="settings_screen_advanced">"Opciones avanzadas"</string>
     <string name="settings_screen_theme">"Tema"</string>
     <string name="abbreviation_unit_milliseconds">"<xliff:g id="MILLISECONDS">%s</xliff:g> ms"</string>
     <string name="settings_system_default">"Predeterminado"</string>
@@ -64,6 +63,7 @@
     <string name="keyboard_color">Establecer color personalizado del teclado</string>
     <string name="hide_special_chars">Ocultar caracteres especiales</string>
     <string name="hide_language_switch_key">Ocultar tecla de cambio de idioma</string>
+    <string name="pref_enable_ime_switch">Cambiar a otros teclados</string>
     <string name="show_number_row">Mostrar la fila de dígitos separada</string>
     <string name="space_swipe">Desplazamiento del cursor del espacio</string>
     <string name="delete_swipe">Deslizar para eliminar</string>
